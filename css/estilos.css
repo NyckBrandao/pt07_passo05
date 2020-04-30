@@ -1,0 +1,23 @@
+table, th, td{
+	border: 2px solid black;
+	border-collapse: collapse;
+	
+}
+
+body{
+	font-family: Trebuchet MS, Helvetica, Sans-serif; /* Escolher fonte. São usadas 3 fontes, caso uma não seja compatível, a seguinte é usada.*/
+}
+
+th, td{
+	padding-top: 15px; /* Colocar espaçamento em cima */
+	padding-bottom: 15px; /* Colocar espaçamento em baixo */
+  font-weight: bold; /* Colocar legendas a negrito, "bold" */
+	text-shadow: 1px 1px #000000; /* Sombra das legendas */
+}
+
+table {
+	height: 100%;
+	width: 100%;
+	background-color: #e3c1c1; /* Escolher cor da background usando um HEX code. A cor usada é um cinzento rosado. */
+	text-align: center; /* Alinhar o texto ao centro*/
+}
